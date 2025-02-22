@@ -1,4 +1,4 @@
-const standardPassword = () => {
+export const standardPassword = () => {
   const characters =
     "'1234567890-=!@#$%¨&*()_+qwertyuiop[asdfghjklç~]zxcvbnm,.;/QWERTYUIOP{ASDFGHJKLÇ^}ZXCVBNM<>:?";
   const length = 12;
@@ -9,5 +9,3 @@ const standardPassword = () => {
   }
   return password;
 };
-
-export default standardPassword;
